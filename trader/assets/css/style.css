@@ -1,0 +1,248 @@
+.content-wrapper{
+    margin-left: 240px;
+    top: 30px;
+    margin-top: 65px;
+    transition: .3s;
+}
+.content-wrapper.hide{
+    margin-left: 0;
+}
+.top-chart-earn{
+    border-radius: 5px;
+    padding-top: 15px;
+    box-shadow: -2px 3px 13px 0px #ddd6;
+}
+.last-month{
+    line-height: 20px;
+    text-align: center;
+}
+.last-month h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+.last-month p{
+    font-size: 12px;
+    color: #7777;
+}
+.earn{
+    margin: 12px 0;
+
+}
+.earn h2{
+    font-size: 26px;
+    font-weight: 600;
+
+}
+
+/* graph */
+button#pills-week-tab:active{
+    background-color: #fff !important;
+    
+}
+.chart-nav.active{
+    background-color: #fff !important;
+    color: var(--main-color-alt)!important;
+    border-bottom: 2px solid var(--main-color-alt);
+}
+.chart-nav{
+    color: var(--second-color);
+    padding: 0px 15px;
+    /* transition: .3s; */
+    border-radius: 0;
+}
+.chart-nav:hover{
+    color: var(--main-color-alt);
+}
+.chart-header-tab{
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/*top section  earnig char css */
+.bdr-cls{
+    border-right: 1px solid #dddddd6b;
+}
+.wre-sec{
+    overflow: hidden;
+    border-top: 1px solid #dddddd6b;
+}
+.earn-view{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+.earn-icon{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    padding: 3px;
+    background: #ddd;
+    font-size: 16px;
+    color: var(--white-color);
+
+}
+.wallet{
+    background: var(--main-color-alt);
+
+}
+.referral{
+    background: #7d12ce;
+}
+.sales{
+    background: #20739a;
+}
+.earning{
+    background: #00722c;
+}
+
+
+/* trafic chart*/
+
+.traffice-title {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 15px;
+}
+div#chart-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* followers */
+.revinue.revinue-one_hybrid{
+    background: linear-gradient(121deg, rgba(194,13,90,1)25%, rgb(162, 101, 182)100%);
+}
+.revinue{
+    padding-top: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.w-title{
+    display: flex;
+    padding: 0 7px 10px;
+    align-items: center;
+}
+.w-icon{
+    font-size: 28px;
+    color: var(--white-color);
+    padding-right: var(--mb-2);
+}
+.sm-chart-text{
+    line-height: 20px;
+    color: var(--white-color);
+}
+p.w-value{
+    font-size: 15px;
+}
+
+.page-one_hybrid{
+    background: linear-gradient(121deg, rgba(92,26,26,195)25%, rgb(136 25 206)100%);
+
+}
+.bonuce-one_hybrid{
+    background: linear-gradient(121deg, rgb(26 179 195) 25%, rgb(25 97 206 /95%)100%);
+}
+.rv-status-one_hybrid{
+    background: linear-gradient(121deg, rgb(232 202 53) 25%, rgb(206 125 25 /95%)100%);
+
+}
+
+
+/* admin name list */
+.admin-list{
+    padding: 10px;
+    border-radius: 5px;
+    background: var(--white-color);
+    /* box-shadow: -2px 3px 13px 0px #ddd; */
+    padding: 10px;
+    border-radius: 5px;
+    background: var(--white-color);
+    box-shadow: -2px 3px 13px 0px;
+}
+img.admin-image{
+    width: 50px;
+    border-radius: 50%;
+    height: 70px;
+    
+}
+p.admin-ac-title{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 5px;
+    display: inline-block;
+    border-bottom: 2px solid var(--main-color-alt);
+    line-height: 1.5;
+    margin-bottom: 13px;
+}
+li.admin-li{
+    display: flex;
+    align-items: center;
+    margin: 3px ;
+}
+.admin-ac-details{
+    padding-left: 10px;
+    line-height: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.admin-name{
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--second-color);
+    transition: .3s;
+    -webkit-transition:.3s;
+    -moz-transition: .3s;
+    -ms-transition:.3s;
+    -o-transition: .3s;
+
+}
+.admin-name:hover{
+    color: var(--main-color-alt);
+}
+p.admin-name{
+    font-size: 40px;
+    
+}
+p.activaty-text{
+    padding-top: 18px;
+    font-size: 11px;
+    font-weight: #989898;
+    text-align: start;
+}
+.status{
+    text-align: left;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+
+
+
+
+.order-list{
+    padding: 10px;
+    border-radius: 5px;
+    background: var(--white-color);
+    box-shadow: -2px 3px 13px 0px;
+
+}
+p.order-ac-title{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 5px;
+    display: inline-block;
+    border-bottom: 2px solid var(--main-color);
+    line-height: 1.5;
+    margin-bottom: 13px;
+}

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "apexcharts": "^3.46.0",
+    "datatables.net-dt": "^2.0.2"
+  }
+}

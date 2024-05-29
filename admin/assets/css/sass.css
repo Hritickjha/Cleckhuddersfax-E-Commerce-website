@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Merienda:wght@500;700;800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+:root{
+    --header-height:3rem;
+    --second-color:rgb(7,3,45);
+    --main-grident:linear-gradient(121deg,rgba(194,3,90,1) 25%,rgb(255 0 194 /42%) 100%);
+    --dark-bg:#383848;
+    --main-color-alt:#af547d;
+    --text-color:#707070;
+    --white-color:#ffffff;
+    --white-alt:#e6e6e6;
+
+    --body-font:'Poppins',sans-serif;
+    --biggest-font-size:2.25rem;
+    --h1-font-size:1.5rem;
+    --h2-font-size:1.25rem;
+    --h3-font-size:1rem;
+    --normel-font-size:.938rem;
+    --small-font-size:.813rem;
+    --smaller-font-size:.75rem;
+
+    --font-medium:500;
+    --font-semi-bold:600;
+
+    --md-1:.5rem;
+    --mb-2:1rem;
+    --mb-3:1.5rem;
+    --mb-4:2rem;
+    --mb-5:2.5rem;
+    --mb-6:3rem;
+
+    --z-tooltip:10;
+    --z-fixed:100;
+
+}
+*,
+::before,
+::after{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    color: var(--second-color);
+    font-size: 13px;
+    font-weight: 400px;
+    line-height: 28px;
+    overflow-x: hidden;
+    background: hsl(200deg 27% 98%);
+    
+}
+img{
+    vertical-align: middle;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover{
+    text-decoration: none;
+    color: var(--white-color);
+
+}
+ul,ol{
+    list-style: none;
+}
+button:focus{
+    outline: none;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li,span,label{
+    margin: 0;
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+ovh{
+    overflow: hidden;
+}
+table.table{
+    white-space: nowrap;
+}
+.di-btn{
+    color: aliceblue;
+    padding: .7rem var(--mb-3);
+    font-weight: 500;
+    border-radius: 3px;
+    box-shadow: 0px 6px 19px 1px #06041d4a;
+}
+.purple-gradient{
+    background: var(--main-grident);
+}
+.bg-cla{
+    background: var(--main-color);
+}
+.bg-clc{
+    background: linear-gradient(121deg,rgb(92 26 195) 25%,rgb(136 25 206 /95%) 100%);
+}
+.bg-clc{
+    background: linear-gradient(121deg,rgb(26 179 195) 25%,rgb(25 97 206 /95%) 100%);
+}
+.bg-clc{
+    background: linear-gradient(121deg,rgb(232 202 53) 25%,rgb(206 125 25 /95%) 100%);
+}
