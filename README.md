@@ -64,7 +64,4 @@ For any inquiries or issues, please contact:
 - Hritick Jha
 - Email: jhahritick@gmail.com
 
----
-
-This repository and its contents are confidential and proprietary. Unauthorized use is prohibited.
 
